@@ -1,4 +1,4 @@
-# nuxt-page-transision-example
+# nuxt-page-transition-example
 
 > Nuxt.js project
 
