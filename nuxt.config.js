@@ -17,6 +17,11 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
+  router: {
+    base: '/nuxt-page-transition-example/'
+  },
+
   /*
   ** Build configuration
   */
@@ -25,6 +30,8 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, ctx) {
+      config.output.publicPath = '/nuxt-page-transition-example/_nuxt/'
+
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
