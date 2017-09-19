@@ -28,16 +28,7 @@ export default {
 }
 </script>
 
-<style>
-.page {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  min-height: 100vh;
-  background-color: #fff;
-}
-
+<style scoped>
 .container {
   min-height: 100vh;
   display: flex;
@@ -61,20 +52,5 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-
-.wrapper {
-  margin: 100px auto;
-  width: 500px;
-  text-align: center;
-}
-
-.wrapper h1 {
-  font-size: 60px;
-  font-weight: normal;
 }
 </style>

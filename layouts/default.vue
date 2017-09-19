@@ -21,6 +21,15 @@ html {
   margin: 0;
 }
 
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
 .button--green {
   display: inline-block;
   border-radius: 4px;
@@ -48,6 +57,21 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+.wrapper {
+  margin: 100px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-size: 60px;
+  font-weight: normal;
 }
 
 .page-enter-active,
