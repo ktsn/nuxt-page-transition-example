@@ -16,6 +16,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
