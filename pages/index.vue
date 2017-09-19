@@ -10,8 +10,8 @@
           Nuxt.js project
         </h2>
         <div class="links">
-          <nuxt-link to="/foo" class="button--grey">/foo</nuxt-link>
-          <nuxt-link to="/bar" class="button--grey">/bar</nuxt-link>
+          <nuxt-link to="/foo/" class="button--grey">/foo/</nuxt-link>
+          <nuxt-link to="/bar/" class="button--grey">/bar/</nuxt-link>
         </div>
       </div>
     </section>
